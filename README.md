@@ -1,12 +1,36 @@
-<!-- <p align="center">
-  <img src="https://static.skillshare.com/uploads/discussion/tmp/60539f55" width="500" height="300" alt="Descrição da Imagem">
-</p> -->
+# Lista de Tarefas
 
-<!-- [![Concluído](https://img.shields.io/badge/Status-Em%Construcao-de3163)](link_da_sua_sugestao) -->
+Aplicação full stack para organizar tarefas do dia: API REST em Node.js e Express com MongoDB e front-end em HTML, CSS e JavaScript, seguindo o padrão MVC.
 
-# :pencil: Lista de Tarefas
+> **EN:** Full stack to-do app: a Node.js/Express REST API with MongoDB and a vanilla HTML/CSS/JavaScript front end, following the MVC pattern.
 
-A aplicação oferece uma experiência de gerenciamento de tarefas, possibilitando aos usuários adicionar, excluir e visualizar suas tarefas diárias. Com a arquitetura MVC e a integração feita entre o frontend, backend e o banco de dados, garantimos um sistema ágil e responsivo, facilitando a organização e produtividade dos usuários.
+<!-- Print da aplicação: salve a imagem em docs/print.png e remova este comentário -->
+<!-- ![Tela da lista de tarefas](docs/print.png) -->
 
-[:clapper: Ver Projeto no Browser](https://delisg.github.io/lista-de-tarefas/) <br>
-[:page_with_curl: Documentação técnica](documentacao.md) 
+[Demonstração no GitHub Pages](https://delisg.github.io/lista-de-tarefas/) (versão estática, lê as tarefas de `src/models/list.json`) · [Documentação técnica](documentacao.md)
+
+## Funcionalidades
+
+- Adicionar tarefa com descrição, data e hora
+- Listar e excluir tarefas pela interface
+- API REST com CRUD completo de tarefas, testada no Postman
+
+## API
+
+| Rota | Método | Descrição |
+| --- | --- | --- |
+| `/lists` | GET | Lista todas as tarefas |
+| `/lists/:id` | GET | Busca uma tarefa pelo id |
+| `/lists` | POST | Cria uma tarefa |
+| `/lists/:id` | PUT | Atualiza uma tarefa |
+| `/lists/:id` | DELETE | Remove uma tarefa |
+| `/lists` | DELETE | Remove todas as tarefas |
+
+## Tecnologias
+
+Node.js · Express · MongoDB · Mongoose · HTML · CSS · JavaScript
+
+## Autora
+
+**Delis Guerra**, Engenheira de Software Full Stack · Recife-PE
+[LinkedIn](https://www.linkedin.com/in/delisguerra) · [GitHub](https://github.com/Delisg)
